@@ -17,7 +17,25 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-	</dependencies>
+    <!-- Spring Boot Starter for Core Features -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+
+    <!-- Spring Boot Web (for REST APIs) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- Spring Data JPA (for database operations) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <!-- Jackson (for JSON handling) -->
 
 	<build>
 		<plugins>
